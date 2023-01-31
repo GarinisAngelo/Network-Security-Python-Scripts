@@ -1,1 +1,4 @@
-as
+By executing the snufus.py, the malicious user can listen to the traffic inside the network and steal information about the machines that are sending and receiving packets.
+Using the tool "Scapy", this script asks for the file name that he wants the packets to be logged to. Then is starts listening to the traffic of the network and logs every movement inside it in a .txt file. Later the user can check this txt file and learn information about the mac addresses, the ip addresses, the packets that are sent and received and more, which he can use for his treacherous purpose.
+
+One of the purpose he might use that information is for a DDoS attack on the network. Using the "hping3" command that is provided with Kali Linux, he can send numerous requests one after another to an IP in the network that quickly that the IP receiving the requests cant respond to them in time, thus creating a delay between responses and finally terminating this machine's connection to the network
